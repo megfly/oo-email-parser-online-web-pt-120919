@@ -5,5 +5,6 @@
 
 class EmailAddressParser 
   
+  attr_accessor :parse
   
 end 
