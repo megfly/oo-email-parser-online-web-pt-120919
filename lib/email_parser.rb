@@ -11,6 +11,6 @@ class EmailAddressParser
     emails.delete(",").split.uniq
   end 
   
-  #..........seperate each email address into an array and split each individual email address into a string(.split), remove duplicate email address (.uniq)...... 
+  #delete the "", ..........seperate each email address into an array and split each individual email address into a string(.split), remove duplicate email address (.uniq)...... 
   
 end 
