@@ -10,6 +10,6 @@ class EmailAddressParser
   def parse 
   end 
   
-  #put each email address into a string, 
+  #put each email address into an array and each individual email address into a string
   
 end 
