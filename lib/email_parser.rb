@@ -8,9 +8,9 @@ class EmailAddressParser
   end 
   
   def parse 
-    emails.delete(',')split.uniq
+    emails.delete(' ')split.uniq
   end 
   
-  #..........put each email address into an array and split each individual email address into a string(.split), remove duplicate email address (.uniq)...... 
+  #..........seperate each email address into an array and split each individual email address into a string(.split), remove duplicate email address (.uniq)...... 
   
 end 
